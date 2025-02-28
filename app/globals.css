@@ -22,3 +22,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.linear-text-gradient {
+  background: linear-gradient(to bottom right,#B39878,#4D3E34);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contactbtn{
+  
+  background: linear-gradient(to bottom right,#B39878,#4D3E34)
+}
