@@ -18,13 +18,11 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
 }
 
 .linear-text-gradient {
-  background: linear-gradient(to bottom right,#B39878,#4D3E34);
+  background: linear-gradient(to right,#B39878,#4D3E34);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -34,3 +32,5 @@ body {
   
   background: linear-gradient(to bottom right,#B39878,#4D3E34)
 }
+
+
