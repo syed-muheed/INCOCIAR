@@ -35,7 +35,7 @@ const Servicehero = () => {
             duration: 0.47,
             ease: "easeInOut",
           }}
-          className=" text-[48px] md:text-[64px] lg:text-[80px] "
+          className=" text-[48px] md:text-[64px] lg:text-[80px] text-white "
         >
           Our Services
         </motion.div>
