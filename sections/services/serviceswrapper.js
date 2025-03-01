@@ -6,7 +6,7 @@ const Serviceswrapper = () => {
   return (
     <div className=" w-full bg-white ">
       <Servicehero />
-      <Servicemarquee />
+      <Servicemarquee q1={"BESPOKE LUXURY"} q2={"HANDCRAFTED DETAILS"} q3={"CURATED SPACES"} q4={"CRAFTED PERFECTION"} q5={"AESTHETIC LOOK"} q6={"TAILORED DESIGNS"} />
     </div>
   );
 };

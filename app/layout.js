@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar";
 import "./globals.css";
 import "../public/fonts/Syne/stylesheet.css";
 import "../public/fonts/matter/stylesheet.css";
-import localFont from '@next/font/local'
+import localFont from 'next/font/local'
 
 const matter = localFont({
   src: [
@@ -98,7 +98,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={` bg-white  ${matter.className}`}
+        className={` ${matter.className}`}
       >
         <Navbar/>
         {children}
