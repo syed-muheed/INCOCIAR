@@ -1,51 +1,51 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 
-const Servicemarquee = () => {
+const Servicemarquee = ({q1,q2,q3,q4,q5,q6}) => {
   return (
-    <div className="w-full  ">
-      <Marquee speed={140}>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Handcrafted Details
+    <div className="w-full py-5 ">
+      <Marquee speed={200}>
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q1}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Curated Spaces
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q2}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Crafted Perfection
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q3}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Handcrafted Details
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q4}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Curated Spaces
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q5}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Crafted Perfection
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q6}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Handcrafted Details
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q1}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Curated Spaces
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q2}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Crafted Perfection
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q3}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Handcrafted Details
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q4}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Curated Spaces
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q5}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Crafted Perfection
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q6}
         </div>
-        <div className=" text-[18px] py-4 px-20 text-black ">
-          Handcrafted Details
+        <div className=" text-[18px] py-4 px-28 text-black ">
+          {q1}
         </div>
-        <div className=" text-[18px] px-20 text-black ">Curated Spaces</div>
-        <div className=" text-[18px] px-20 text-black ">Crafted Perfection</div>
+        <div className=" text-[18px] px-28 text-black ">{q2}</div>
+        <div className=" text-[18px] px-28 text-black ">{q3}</div>
       </Marquee>
     </div>
   );

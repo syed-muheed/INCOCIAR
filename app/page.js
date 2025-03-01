@@ -1,15 +1,14 @@
-import Image from "next/image";
-import logo from "@/public/images/hrlogo.png"
-import hero from "@/public/images/hero.png"
+import Craft from "@/sections/home/craft";
+import Hero from "@/sections/home/hero";
+import Servicemarquee from "@/sections/services/servicemarquee";
+
 
 export default function Home() {
   return (
     <div className="pt-[5rem] ">
-      <div className=" flex justify-between px-[1rem] md:px-[2rem] xl:px-[3rem]">
-        <div className=" h-[6rem] "><Image alt="logo" className=" h-full w-full " src={logo}/></div>
-        <div className=" text-[17px] leading-[1.8rem] w-[24rem]">Transform your space into a reflection of who you are. At Incociar, we create interiors that enhance your lifestyle and inspire your daily moments.</div>
-      </div>
-      <div className=" pt-[2rem] "><Image alt="logo" className=" h-full w-full " src={hero}/></div>
+      <Hero/>
+      <Servicemarquee q1={"BESPOKE LUXURY"} q2={"HANDCRAFTED DETAILS"} q3={"CURATED SPACES"} q4={"CRAFTED PERFECTION"} q5={"AESTHETIC LOOK"} q6={"TAILORED DESIGNS"} />
+      <Craft/>
     </div>
   );
 }
