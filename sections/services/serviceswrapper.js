@@ -17,8 +17,8 @@ const Serviceswrapper = () => {
         q5={"AESTHETIC LOOK"}
         q6={"TAILORED DESIGNS"}
       />
-      {/* <Servicescroll /> */}
-      {/* <Threebox /> */}
+      <Servicescroll />
+      <Threebox />
       <Testimonials />
     </div>
   );
