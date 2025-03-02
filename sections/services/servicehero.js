@@ -3,6 +3,7 @@ import React from "react";
 import img from "@/public/images/serviceimg.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { syne } from "@/components/fonts";
 
 const Servicehero = () => {
   return (
@@ -35,7 +36,7 @@ const Servicehero = () => {
             duration: 0.47,
             ease: "easeInOut",
           }}
-          className=" text-[48px] md:text-[64px] lg:text-[80px] text-white "
+          className={` ${syne.className} text-[48px]  md:text-[64px] lg:text-[80px] text-white font-bold `}
         >
           Our Services
         </motion.div>
