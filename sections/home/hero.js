@@ -10,6 +10,7 @@ import { syne } from "@/components/fonts";
 import Servicemarquee from "../services/servicemarquee";
 
 const Hero = () => {
+    
   return (
     <div className="relative top-[2rem] md:top-[-5.2rem] lg:top-[-6rem]">
       <div className=" flex justify-start md:justify-end px-[1rem]  md:px-[2rem] xl:px-[3rem]">
