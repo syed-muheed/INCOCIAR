@@ -64,30 +64,7 @@ const matter = localFont({
   ]
 })
 
-const syne = localFont({
-  src: [
-    {
-      path: "../public/fonts/Syne/Syne-Bold.woff2",
-      weight: 'bold',
-      style: 'normal'
-    },
-    {
-      path: "../public/fonts/Syne/Syne-Medium.woff2",
-      weight: '500',
-      style: 'normal'
-    },
-    {
-      path: "../public/fonts/Syne/Syne-Regular.woff2",
-      weight: 'normal',
-      style: 'normal'
-    },
-    {
-      path: "../public/fonts/Syne/Syne-SemiBold.woff2",
-      weight: '600',
-      style: 'normal'
-    },
-  ]
-})
+
 
 export const metadata = {
   title: "Create Next App",
