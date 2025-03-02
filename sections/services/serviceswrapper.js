@@ -2,11 +2,12 @@ import React from "react";
 import Servicehero from "./servicehero";
 import Servicemarquee from "./servicemarquee";
 import Servicescroll from "./servicescroll";
+import Threebox from "./threebox";
 
 const Serviceswrapper = () => {
   return (
     <div className=" w-full bg-white ">
-      <Servicehero />
+      {/* <Servicehero />
       <Servicemarquee
         q1={"BESPOKE LUXURY"}
         q2={"HANDCRAFTED DETAILS"}
@@ -15,8 +16,8 @@ const Serviceswrapper = () => {
         q5={"AESTHETIC LOOK"}
         q6={"TAILORED DESIGNS"}
       />
-      <Servicescroll />
-      <div className=" h-screen "></div>
+      <Servicescroll /> */}
+      <Threebox />
     </div>
   );
 };

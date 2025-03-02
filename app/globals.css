@@ -48,3 +48,7 @@ body {
 .zoomin {
   animation: scaleAnimation 18s ease-in-out infinite;
 }
+
+.brownbtn{
+background:  linear-gradient(92deg, #B39878 0%, #8C705E 61.7%, #775F50 80.67%, #4D3E34 100%);
+}
