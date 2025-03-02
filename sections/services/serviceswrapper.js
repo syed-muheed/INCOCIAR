@@ -7,7 +7,7 @@ import Threebox from "./threebox";
 const Serviceswrapper = () => {
   return (
     <div className=" w-full bg-white ">
-      {/* <Servicehero />
+      <Servicehero />
       <Servicemarquee
         q1={"BESPOKE LUXURY"}
         q2={"HANDCRAFTED DETAILS"}
@@ -16,7 +16,7 @@ const Serviceswrapper = () => {
         q5={"AESTHETIC LOOK"}
         q6={"TAILORED DESIGNS"}
       />
-      <Servicescroll /> */}
+      <Servicescroll />
       <Threebox />
     </div>
   );
