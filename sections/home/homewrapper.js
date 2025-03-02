@@ -8,6 +8,8 @@ import Craft from "@/sections/home/craft";
 import Hero from "@/sections/home/hero";
 import Servicemarquee from "@/sections/services/servicemarquee";
 import { motion } from "framer-motion";
+import Process from './process';
+import Why from './why';
 
 const Homewrapper = () => {
     const [scrollY, setScrollY] = useState(0);
@@ -28,6 +30,8 @@ const Homewrapper = () => {
         <Hero/>
         <Servicemarquee q1={"BESPOKE LUXURY"} q2={"HANDCRAFTED DETAILS"} q3={"CURATED SPACES"} q4={"CRAFTED PERFECTION"} q5={"AESTHETIC LOOK"} q6={"TAILORED DESIGNS"} />
         <Craft/>
+        <Process/>
+        <Why/>
     </div>
   )
 }
