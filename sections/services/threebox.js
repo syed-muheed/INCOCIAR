@@ -9,7 +9,7 @@ const Threebox = () => {
   return (
     <div className=" h-fit w-full flex flex-col ">
       <Offermarquee className={"relative top-[48px]"} />
-      <div className=" flex items-center justify-center relative z-30   ">
+      <div className=" flex flex-col gap-4 md:gap-8 lg:gap-0 lg:flex-row items-center justify-center relative z-30   ">
         <Card1 />
         <Card2 />
         <Card3 />
