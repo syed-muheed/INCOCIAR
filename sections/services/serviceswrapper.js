@@ -12,7 +12,7 @@ import Readytotransform from "../home/readytotransform";
 const Serviceswrapper = () => {
   return (
     <div className=" w-full bg-white ">
-      <Servicehero />
+      {/* <Servicehero />
       <Servicemarquee
         q1={"BESPOKE LUXURY"}
         q2={"HANDCRAFTED DETAILS"}
