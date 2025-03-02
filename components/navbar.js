@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className=" sticky top-0 z-20">
+    <div className="  z-20">
     <Padding
       className={
         " flex justify-between items-center  h-[4rem] relative bg-white"

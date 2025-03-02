@@ -1,9 +1,4 @@
-"use client"
-
 import Homewrapper from "@/sections/home/homewrapper";
-
-
-
 
 
 export default function Home() {

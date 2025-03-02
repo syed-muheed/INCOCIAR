@@ -19,6 +19,8 @@
 
 body {
   background: #fff;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .linear-text-gradient {
