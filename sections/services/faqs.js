@@ -63,7 +63,7 @@ const Faqs = () => {
   return (
     <Padding>
       {" "}
-      <div className=" w-full flex flex-col gap-6 lg:gap-0 lg:flex-row justify-between ">
+      <div className=" w-full flex flex-col gap-6 lg:gap-0 lg:flex-row justify-between py-[40px] ">
         <div
           className={` ${syne.className} text-[#25231F] font-semibold text-[20px] md:text-[36px] w-[200px] md:w-[400px] leading-[1.2]  `}
         >
