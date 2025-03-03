@@ -7,6 +7,7 @@ import Testimonials from "./testimonials";
 import Homebudget from "./homebudget";
 import Navigate from "./navigate";
 import Faqs from "./faqs";
+import Readytotransform from "../home/readytotransform";
 
 const Serviceswrapper = () => {
   return (
@@ -22,10 +23,12 @@ const Serviceswrapper = () => {
       />
       {/* <Servicescroll />
       <Threebox /> */}
-      <Homebudget />
+      {/* <Homebudget />
       <Navigate />
+      <Testimonials /> */}
       <Faqs />
-      <Testimonials />
+      <Readytotransform />
+      <div className=" h-screen "></div>
     </div>
   );
 };
