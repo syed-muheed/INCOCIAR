@@ -4,6 +4,9 @@ import Servicemarquee from "./servicemarquee";
 import Servicescroll from "./servicescroll";
 import Threebox from "./threebox";
 import Testimonials from "./testimonials";
+import Homebudget from "./homebudget";
+import Navigate from "./navigate";
+import Faqs from "./faqs";
 
 const Serviceswrapper = () => {
   return (
@@ -17,8 +20,11 @@ const Serviceswrapper = () => {
         q5={"AESTHETIC LOOK"}
         q6={"TAILORED DESIGNS"}
       />
-      <Servicescroll />
-      <Threebox />
+      {/* <Servicescroll />
+      <Threebox /> */}
+      <Homebudget />
+      <Navigate />
+      <Faqs />
       <Testimonials />
     </div>
   );
