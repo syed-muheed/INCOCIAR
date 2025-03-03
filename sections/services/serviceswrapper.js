@@ -9,10 +9,12 @@ import Navigate from "./navigate";
 import Faqs from "./faqs";
 import Readytotransform from "../home/readytotransform";
 import Footer from "../home/footer";
+import Startanimation from "@/components/startanimation";
 
 const Serviceswrapper = () => {
   return (
     <>
+      <Startanimation />
       <div className=" w-full bg-white ">
         <Servicehero />
         <Servicemarquee
