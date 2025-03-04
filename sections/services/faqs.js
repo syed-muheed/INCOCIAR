@@ -76,7 +76,11 @@ const Faqs = () => {
               key={index}
               className=" w-full lg:w-[95%] cursor-pointer "
               onClick={() => {
-                setClick(index);
+                if (click == index) {
+                  setClick(-1);
+                } else {
+                  setClick(index);
+                }
               }}
             >
               <Faqcard
