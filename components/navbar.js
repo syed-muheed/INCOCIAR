@@ -21,7 +21,7 @@ const Navbar = () => {
             
             <div className="  min-h-full">
         <Link  href={"/"}><div className="pb-4">Home</div></Link>
-        <Link href={"/"}><div className="pb-4">About</div></Link>
+        <Link href={"/aboutus"}><div className="pb-4">About</div></Link>
         <Link href={"/services"}><div className="pb-4">Services</div></Link>
         <Link href={"/"}><div className="pb-4">Locations</div></Link>
         <Link href={"/"}><div className="pb-4">Contact us</div></Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className=" h-[2rem]   invisible "><Image alt="logo" className=" h-full w-full " src={logo}/></div>
       <div className=" lg:flex gap-8 hidden justify-center items-center text-[#78777B]">
         <Link href={"/"}><div>Home</div></Link>
-        <Link href={"/"}><div>About</div></Link>
+        <Link href={"/aboutus"}><div>About</div></Link>
         <Link href={"/services"}><div>Services</div></Link>
         <Link href={"/"}><div>Locations</div></Link>
         
@@ -39,11 +39,12 @@ const Navbar = () => {
         <div className={`w-[25px] h-[1.5px] rounded-full transition-all duration-150  relative ${close ? "rotate-45 top-[5px]": ""}  bg-black`}></div>
         <div className={`w-[25px] h-[1.5px] rounded-full transition-all duration-150 ${close ? "-rotate-45 -top-[5px]": ""} relative  bg-black`}></div>
       </div>
-      <div className=" p-[1.6px] hidden lg:flex  shadow-md rounded-full contactbtn  ">
+      <Link href={"/contactus"}><div className=" p-[1.6px] hidden lg:flex  shadow-md rounded-full contactbtn  ">
         <div className=" px-4 py-1.5  bg-white rounded-full ">
           <span className="linear-text-gradient">Contact us</span>
         </div>
-      </div>
+      </div></Link>
+      
     </Padding>
     </div>
   );

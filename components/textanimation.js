@@ -28,6 +28,7 @@ export default function Textanimation({
       ease: "bounce.out",
       stagger: stagger || 0.03,
       duration: duration || 0.5,
+      delay: 3
     });
   };
 

@@ -1,8 +1,18 @@
+"use client"
 import React from "react";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 
 const Star = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+
   return (
-    <div>
+    <motion.div
+        ref={ref}
+        initial={{ rotate: 0 }}
+        animate={isInView ? { rotate: 2520 } : {}} // 5 full rotations (360 * 5)
+        transition={{ duration: 1.5, ease: "easeOut",type:"spring" }}>
       <svg
         width="20"
         height="21"
@@ -15,7 +25,7 @@ const Star = () => {
           fill="#B38F78"
         />
       </svg>
-    </div>
+      </motion.div>
   );
 };
 

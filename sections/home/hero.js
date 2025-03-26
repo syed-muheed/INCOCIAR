@@ -23,7 +23,7 @@ const Hero = () => {
       <div className=" pt-[2rem] lg:flex h-[50rem] md:h-[60rem] lg:h-[35rem] ">
         <div className={` lg:w-[68%] ${syne.className} text-[#ffffff91] font-medium text-[2rem] bg-center pl-[1.2rem] md:text-[2.5rem] flex items-center justify-center  lg:text-[3.2rem] bg-cover h-[52%] lg:h-full`} style={{ backgroundImage: "url(/images/hero1.png)" }}>
         <div className="pt-2 ">
-        <Textanimation content={"Design That Fits Your Lifestyle"}  />
+        <Textanimation content={"Connecting People With Their Lifestyle"}  />
         </div>
         </div>
         <div className=" lg:w-[32%] bg-cover h-[48%] bg-center  md:hidden lg:flex lg:h-full" style={{ backgroundImage: "url(/images/hero2.png)" }}>
