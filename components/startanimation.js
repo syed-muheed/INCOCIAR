@@ -1,4 +1,5 @@
 "use client";
+import Inconewsvg from "@/public/icons/inconewsvg";
 import Incosvg from "@/public/icons/incosvg";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
@@ -47,7 +48,8 @@ const Startanimation = () => {
             }}
           >
             <div className=" px-6 md:px-12 w-[300px] md:w-[400px] ">
-              <Incosvg />
+              {/* <Incosvg /> */}
+              <Inconewsvg />
             </div>
           </motion.div>
         )}
