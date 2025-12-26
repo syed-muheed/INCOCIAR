@@ -4,10 +4,12 @@ import Padding from "./padding";
 import Image from "next/image";
 import logo from "@/public/images/logo.png"
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 
 const Navbar = () => {
     const [close,setclose]=useState(false)
+    const pathname=usePathname()
   return (
     <div className=" sticky top-0 z-20">
     <Padding
@@ -27,7 +29,7 @@ const Navbar = () => {
         <Link href={"/"}><div className="pb-4">Contact us</div></Link>
         </div>
         </Padding>
-        <div className=" h-[2rem]   invisible "><Image alt="logo" className=" h-full w-full " src={logo}/></div>
+        <div className={` h-[2rem]  ${pathname == "/" ? "invisible" : ""}  `}><Image alt="logo" className=" h-full w-full " src={logo}/></div>
       <div className=" lg:flex gap-8 hidden justify-center items-center text-[#78777B]">
         <Link href={"/"}><div>Home</div></Link>
         <Link href={"/aboutus"}><div>About</div></Link>
@@ -39,7 +41,7 @@ const Navbar = () => {
         <div className={`w-[25px] h-[1.5px] rounded-full transition-all duration-150  relative ${close ? "rotate-45 top-[5px]": ""}  bg-black`}></div>
         <div className={`w-[25px] h-[1.5px] rounded-full transition-all duration-150 ${close ? "-rotate-45 -top-[5px]": ""} relative  bg-black`}></div>
       </div>
-      <Link href={"/contactus"}><div className=" p-[1.6px] hidden lg:flex  shadow-md rounded-full contactbtn  ">
+      <Link className=" hidden lg:flex" href={"/contactus"}><div className=" p-[1.6px] hidden lg:flex  shadow-md rounded-full contactbtn  ">
         <div className=" px-4 py-1.5  bg-white rounded-full ">
           <span className="linear-text-gradient">Contact us</span>
         </div>

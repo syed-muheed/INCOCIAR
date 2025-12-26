@@ -27,21 +27,21 @@ const Homewrapper = () => {
   useEffect(() => {
     if (window.innerWidth >= 1024) {
       isSet1("100px");
-      isSet2(0.55);
+      isSet2(0.01);
       
     } else if (window.innerWidth >= 700) {
       isSet1("80px");
-      isSet2(0.4);
+      isSet2(0.01);
       
     } else if (window.innerWidth < 700) {
       isSet1("60px");
-      isSet2(0.35);
+      isSet2(0.01);
       
     }
   }, []);
 
   // Transform height based on scroll progress
-  const logoHeight = useTransform(scrollYProgress, [0, 0.02], [set1, "33px"]);
+  const logoHeight = useTransform(scrollYProgress, [0, set2], [set1, "33px"]);
 
 
   return (
@@ -60,7 +60,7 @@ const Homewrapper = () => {
       <Ourservices/>
       <Craft />
       <Process />
-      <Why />
+      {/* <Why /> */}
       <Navigate />
           <Testimonials />
           <Faqs />

@@ -47,10 +47,10 @@ const Ourservices = () => {
             </div>
           </div>
         </div>
-        <div className=" flex">
-          <div className={` ${syne.className} flex sticky top-20 h-screen w-fit border text-[5rem] gap-2`}>
+        <div className=" lg:flex">
+          <div className={` ${syne.className} flex sticky top-20 h-screen w-fit  text-[5rem] gap-2`}>
             <div>0</div>
-            <div className="max-h-[8rem] border w-[2.5rem] relative overflow-hidden">
+            <div className="max-h-[8rem] w-[2.5rem] relative overflow-hidden">
               <div
                 className={`transition-transform duration-500 ${
                   activeImage === "01" ? "translate-y-0" : "-translate-y-full"
@@ -84,28 +84,28 @@ const Ourservices = () => {
           </div>
           <div className="space-y-96 w-full">
         <div ref={image1Ref} className="h-screen flex gap-5 justify-center">
-          <Image className="h-[40rem] w-fit object-contain" src={src1} alt="s"/>
+          <Image className="h-[30rem] lg:h-[40rem] w-fit object-contain" src={src1} alt="s"/>
           <div className=" space-y-2">
             <div className="text-[1.1rem]">1. End-to-End Interiors</div>
             <div className="text-[#595959] w-[20rem]">From concept to completion, we handle every detail of your interior project.</div>
           </div>
         </div>
         <div ref={image2Ref} className="h-screen flex gap-5  justify-center">
-          <Image className="h-[40rem] w-fit object-contain" src={src2} alt="s"/>
+          <Image className="h-[30rem]  lg:h-[40rem] w-fit object-contain" src={src2} alt="s"/>
           <div className=" space-y-2">
             <div className="text-[1.1rem]">2. Turnkey Interior Projects</div>
             <div className="text-[#595959] w-[20rem]">Hassle-free execution with all materials, labor, and design managed by us.</div>
           </div>
         </div>
         <div ref={image3Ref} className="h-screen flex  gap-5 justify-center">
-          <Image className="h-[40rem] w-fit object-contain" src={src3} alt="s"/>
+          <Image className="h-[30rem] lg:h-[40rem] w-fit object-contain" src={src3} alt="s"/>
           <div className=" space-y-2">
             <div className="text-[1.1rem]">3. Luxury Interiors & Renovation</div>
             <div className="text-[#595959] w-[20rem]">Transform your space with premium designs and high-quality finishes.</div>
           </div>
         </div>
         <div ref={image4Ref} className="h-screen flex gap-5  justify-center">
-          <Image className="h-[40rem] w-fit object-contain" src={src4} alt="s"/>
+          <Image className="h-[30rem] lg:h-[40rem] w-fit object-contain" src={src4} alt="s"/>
           <div className=" space-y-2">
             <div className="text-[1.1rem]">4. Modular & Semi-Modular Solutions</div>
             <div className="text-[#595959] w-[20rem]">Smart, space-saving, and customizable furniture for modern living.</div>

@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=" pt-[2rem] lg:flex h-[50rem] md:h-[60rem] lg:h-[35rem] ">
-        <div className={` lg:w-[68%] ${syne.className} text-[#ffffff91] font-medium text-[2rem] bg-center pl-[1.2rem] md:text-[2.5rem] flex items-center justify-center  lg:text-[3.2rem] bg-cover h-[52%] lg:h-full`} style={{ backgroundImage: "url(/images/hero1.png)" }}>
+        <div className={` lg:w-[68%] ${syne.className} text-[#ffffffca] font-medium text-[2rem] bg-center pl-[1.2rem] md:pl-0 lg:pl-[1.2rem] md:text-[2.3rem] flex items-center justify-center  lg:text-[3.1rem] bg-cover h-[52%] lg:h-full`} style={{ backgroundImage: "url(/images/hero1.png)" }}>
         <div className="pt-2 ">
         <Textanimation content={"Connecting People With Their Lifestyle"}  />
         </div>
